@@ -1,0 +1,117 @@
+' siempre usen estas instrucciones 
+Option Explicit On
+Option Strict On
+
+Public Class Form1
+
+    'vals necesarias
+    Dim x As Integer, y As Integer, a As Integer = x, b As Integer = y
+    Private mover As Boolean
+    Private XY As Point
+
+Public Sub ajustar()
+        Try
+            'ajustamos los controles(picturebox) al form en ancho y alto
+            pic.Left = Me.Width - 6
+            pic.Top = CInt(Me.Height / 2)
+
+            pic1.Left = pic.Left
+            pic1.Top = Me.Height - 6
+
+            pic2.Left = CInt(Me.Width / 2)
+            pic2.Top = Me.Height - 6
+            Exit Sub
+            'capturamos algun error y salimos
+        Catch ex As Exception
+            Exit Sub
+        End Try
+End Sub
+
+Private Sub Pic_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles pic.MouseDown
+        'guardamos los valores para xy.x
+        XY.X = CInt(CLng(x))
+End Sub
+
+Private Sub Pic_MouseMove(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles pic.MouseMove
+        'accedemos a los botones del raton
+        If e.Button = Windows.Forms.MouseButtons.Right Or e.Button = Windows.Forms.MouseButtons.Left Then
+            'limitamos y redimensionamos el ancho del form
+            If (Me.Width + (x + e.X)) > 0 Then
+                pic.Left = pic.Left + (x + e.X)
+                Me.Width = Me.Width + (x + e.X)
+            End If
+            'ajustamos los controles
+            ajustar()
+        End If
+End Sub
+
+Private Sub Pic2_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles pic2.MouseDown
+        'guardamos valores para xy.y
+        XY.Y = CInt(CLng(y))
+End Sub
+
+Private Sub Pic2_MouseMove(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles pic2.MouseMove
+        If e.Button = Windows.Forms.MouseButtons.Right Or e.Button = Windows.Forms.MouseButtons.Left Then
+            'limitamos y redimensionamos el alto del form
+            If (Me.Height + (y + e.Y)) > 0 Then
+                pic2.Top = pic2.Top + (y + e.Y)
+                Me.Height = Me.Height + (y + e.Y)
+            End If
+            ajustar()
+        End If
+End Sub
+
+Private Sub Pic1_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles pic1.MouseDown
+        'guardamos valores en xy.x y xy.y para redimensionar el ancho y alto del form
+        XY.X = CInt(CLng(x))
+        XY.Y = CInt(CLng(y))
+End Sub
+
+Private Sub Pic1_MouseMove(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles pic1.MouseMove
+        If e.Button = Windows.Forms.MouseButtons.Right Or e.Button = Windows.Forms.MouseButtons.Left Then
+            'redimensionamos el ancho
+            If (Me.Width + (x + e.X)) > 0 Then
+                pic.Left = pic.Left + (x + e.X)
+                Me.Width = Me.Width + (x + e.X)
+            End If
+            'redimensionams el alto
+            If (Me.Height + (y + e.Y)) > 0 Then
+                pic2.Top = pic2.Top + (y + e.Y)
+                Me.Height = Me.Height + (y + e.Y)
+            End If
+            ajustar()
+        End If
+End Sub
+
+    'PARA MOVER EL FORM
+    
+Private Sub Form1_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Me.MouseDown
+        If e.Button = Windows.Forms.MouseButtons.Left Then
+            ' habilitamos el flag  
+            mover = True
+            ' guardar las coordenadas  en a y b
+            a = e.X
+            b = e.Y
+            ' cambiamos el cursor del raton 
+            Me.Cursor = Cursors.NoMove2D
+        End If
+End Sub
+
+Private Sub Form1_MouseMove(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Me.MouseMove
+        If mover Then
+            ' establecemosla nueva posición  
+            Me.Location = New Point((Me.Left + e.X - a), (Me.Top + e.Y - b))
+        End If
+End Sub
+
+Private Sub Form1_MouseUp(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Me.MouseUp
+        'desabilitamos el flag
+        mover = False
+        'retornamos a Cursors.Default
+        Me.Cursor = Cursors.Default
+End Sub
+
+Private Sub Form1_Resize(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Resize
+        'llamamos al sub para ajustar los picturebox(pic, pic1, pic2)
+        ajustar()
+End Sub
