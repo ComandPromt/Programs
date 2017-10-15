@@ -1,0 +1,15 @@
+* pensar que teclas van mejor para rotar a la izquierda y cuales para la derecha, y aplicarlo.
+
+* mejorar velocidad (solo aktualizar la pieza en kada movimiento, poniendola en un div k vaia bajando... i aktualizar el mapa solo kuando hai una kolision de pieza, ignorando las piezas k haia en el: konvertirlas en fondo negro).
+
+//* hacer caer bien las piezas al hacer linea!!! (hay un bug ke kita los agujeros ke hay mas arriba al hacer linea, probablemente un error de hacer_caer_piezas o alguna otra funcion... o una mezcla de varias)
+
+* la ficha se petrifika demasiado deprisa kuando kae encima de otra pieza!!! (no asi kuando lo hace en el fondo)
+* al calcular_colision, setear una variable si no esta seteada si sha habido colision, y salir de la funcion. si ia esta seteada i aun hai colision, poenr la pieza en gris. (esto es para dar al menos tiempo a un movimiento mas de teclado antes de vovlerse gris de golpe)
+* al rotar vigilar no ponerse encima de piezas, i si es posible apartar un poco la pieza al rotarla. si no es posible, no rotar.
+
+* (probar) probar a poner un settimeout al kalkular_kolision para k de tiempo a mover la pieza antes d konvertirla en "roka".
+
+* poner musica y fx.
+
+//* reducir el tamaño de fuente para la informacion del propietario i probar a 1024x768 para ke no se korte.
