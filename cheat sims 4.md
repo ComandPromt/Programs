@@ -1,21 +1,35 @@
-PULSAMOS CONTROL+SHIFT+C
+- Abrir la consola de los trucos
+
+~~~
+CONTROL+SHIFT+C
+~~~
+
+- Activar los trucos
 
 ~~~
 testingcheats on
 ~~~
 
---------------------
+-----------
 Relaciones
---------------------
+-----------
+
+- Mejores amigos
 
 ~~~
 Modifyrelationship Clara Gómez Juan Espinosa 100 Friendship_Main
+~~~
+
+- Compañeros sentimentales
+
+~~~
+
 Modifyrelationship Clara Gómez Juan Espinosa 100 Romance_Main
 ~~~
 
------------------------------------------------
+-------------------
 LLENAR NECESIDADES
------------------------------------------------
+-------------------
 
 - Energía
 
@@ -53,9 +67,9 @@ LLENAR NECESIDADES
  fillmotive motive_hygiene
  ~~~ 
  
---------------------------------------
+------------------------------------
 Satisfacerlas todas las necesidades
---------------------------------------
+------------------------------------
 
 ~~~
 sims.fill_all_commodities
@@ -73,13 +87,13 @@ Dinero
 motherlode 
 ~~~
 
-Ganar 1000 de dinero:
+- Ganar 1000 de dinero
 
 ~~~
 money 1000
 ~~~
 
-Pagar automaticamente las facturas
+- Pagar automaticamente las facturas
 
 ~~~
 households.autopay_bills true 
@@ -89,72 +103,86 @@ households.autopay_bills true
 Estados de animo
 -----------------
 
-Aburrido
+- Aburrido
+
 ~~~
 sims.add_buff e_buff_bored 
 ~~~
 
-Atontado
+- Atontado
+
 ~~~
 sims.add_buff buff_dazed 
 ~~~
 
-Avergonzado
+- Avergonzado
+
 ~~~
 sims.add_buff e_buff_embarrassed
 ~~~
 
-Centrado
+- Centrado
+
 ~~~
 sims.add_buff FocusedHigh
 ~~~
 
-Coqueto
+- Coqueto
+
 ~~~
 sims.add_buff FlirtyHigh 
 ~~~
 		
-Vigoroso
+- Vigoroso
+
 ~~~
 sims.add_buff EnergizedLow  
 ~~~                         
   
-Enfadado
+- Enfadado
+
 ~~~
 sims.add_buff Social_Angry 
 ~~~ 
            
-Feliz
+- Feliz
+
 ~~~
 sims.add_buff HappyHigh 
 ~~~ 
 
-Incomodo
+- Incomodo
+
 ~~~
 sims.add_buff e_buff_uncomfortable
 ~~~
 
-Inspirado
+- Inspirado
+
 ~~~
 sims.add_buff InspiredHigh
 ~~~
 
-Seguro
+- Seguro
+
 ~~~
 sims.add_buff ConfidentHigh
 ~~~
 
-Tenso
+- Tenso
+
 ~~~
 sims.add_buff Buff_Motives_Fun_desperate
 ~~~
 
-Triste
+- Triste
+
 ~~~
 sims.add_buff SadHigh
 ~~~          
  
-Vacilon
+- Vacilon
+
 ~~~
 sims.add_buff PlayfulHigh
 ~~~
@@ -167,20 +195,19 @@ Trabajo
 careers.promote Nombre
 ~~~
 
-Completar el nivel de la aspiración actual.
+- Completar el nivel de la aspiración actual.
 
 ~~~
 aspirations.complete_current_milestone  
 ~~~
 
-Añadir puntos de aspiración deseados
+- Añadir puntos de aspiración deseados
 
 ~~~
 sims.give_satisfaction_points 100 
 ~~~
 
 (sustituir 100 por el numero deseado)
-
 
 ---------------------
 Desactivar la muerte
