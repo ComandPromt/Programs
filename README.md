@@ -1,9 +1,18 @@
-# Codigo para ejecutar Chrome de forma insegura
+```
+fix
+Codigo para ejecutar Chrome de forma insegura
+```
+
+
 chrome.exe --allow-running-insecure-content
 ## Ejemplo:
 "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow -running -insecure -content  -incognito
 
-# IMAGEN Y ARCHIVOS TXT A PDF
+```
+prolog
+IMAGEN Y ARCHIVOS TXT A PDF
+```
+# 
 
 ## Requisitos
 
