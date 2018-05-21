@@ -14,7 +14,7 @@ chrome.exe --allow-running-insecure-content
 [Tutorial](https://www.youtube.com/watch?v=IeUMpoGJ3Jc)
 
 ## Converter.bat
-~~~
+~~~batch
 @echo off
 Title Conversor de imagenes o archivos txt a PDF
 echo ----------------------------------------------------------
