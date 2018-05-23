@@ -32,3 +32,38 @@ echo El archivo se llama archivo.pdf
 echo -------------------------------
 pause
 ~~~
+
+ # Zonas horarias
+ 
+[Zonas horarias](https://github.com/ComandPromt/Others/blob/master/zonas_horarias.html)
+
+ # Inches 2 cm
+ 
+ - Conversor de pulgadas a cm y viceversa
+ 
+ [Inches 2 cm](https://github.com/ComandPromt/Others/blob/master/inches_to_cm.html)
+ 
+  # Mover form mode none Visual Studio
+ 
+ [Mode none](https://github.com/ComandPromt/Others/blob/master/Mover_form_mode_none.vbproj)
+ 
+ # Cheat sims 4
+ 
+ [Cheats](https://github.com/ComandPromt/Others/blob/master/cheat%20sims%204.md)
+ 
+ # Calculo de subnetting
+ 
+ [Subnetting](https://github.com/ComandPromt/Others/blob/master/Direcciones%20IP.xls)
+ 
+ # Ejemplo de servidor DNS (bind 9)
+ 
+ [Server DNS](https://github.com/ComandPromt/Others/blob/master/DNS.rar)
+ 
+ # Texto Bailando
+ 
+ [Harlem Shake](https://github.com/ComandPromt/Others/tree/master/harlem-shake)
+ 
+  # USB MULTIBOOT CON VARIOS SISTEMAS OPERATIVOS
+ 
+ [USB Multiboot](https://github.com/ComandPromt/Others/tree/master/USB%20Multiboot%20(SYSLINUY%20Y%20GRUB4DOS))
+ 
