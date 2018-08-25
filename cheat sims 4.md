@@ -217,8 +217,6 @@ Desactivar la muerte
 death.toggle
 ~~~
 
-//////////////////////////////////////
-     
 # AÑADIR A LA PARCA
 ---------------------------------
 
@@ -229,8 +227,6 @@ death.toggle
 - Pulsar la tecla Shift y seleccionar a la Parca
 
 - Añadir a la familia
-
-///////////////////////////////////////////////////
 
 # Mover objetos ARRIBA O ABAJO
 ---------------------------------
@@ -245,16 +241,12 @@ death.toggle
 
 - Control + 9 para SUBIR
 
-//////////////////////////////////////////////////
-
 # REDIMENSIONAR OBJETOS
 ---------------------------------
 
 -Ojetos mas grandes: ¿
 
 - Objetos mas chicos: ?
-
-/////////////////////////////////////////////////
 
 # RESUCITAR SIMS
 ---------------------------------
