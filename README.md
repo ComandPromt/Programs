@@ -92,4 +92,4 @@ pause
 
 -[GameIcons](http://game-icons.net/)
 
--[Tinypic](tinypic.com)
+-[Tinypic](http://tinypic.com)
