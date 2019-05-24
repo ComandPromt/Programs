@@ -62,19 +62,34 @@ pause
   
   # Imágenes tratuitas
 
-[AllTheFreestock](http://allthefreestock.com/)
-[Pixabay](https://pixabay.com/)
-[Freepik](http://www.freepik.com/)
-[Publicdomainpictures](http://www.publicdomainpictures.net/)
-[VisualHunt]: (https://visualhunt.com/)
-[CreativeVevix] (http://creativevix.com/stock)
-[Unplash]:(https://unsplash.com/)
-[MorgueFile](http://morguefile.com/)
-[SockSnap](https://stocksnap.io/)
-[Gratisography](http://gratisography.com/)
-[Superfamous](http://images.superfamous.com/)
-[NegativeSpace](http://negativespace.co/photos/)
-[LifeofPix](http://www.lifeofpix.com/)
-[Raumrot] (http://raumrot.com/)
-[GameIcons]: (http://game-icons.net/)
-[Tinypic](tinypic.com)  
+-[AllTheFreestock](http://allthefreestock.com/)
+
+-[Pixabay](https://pixabay.com/)
+
+-[Freepik](http://www.freepik.com/)
+
+-[Publicdomainpictures](http://www.publicdomainpictures.net/)
+
+-[VisualHunt](https://visualhunt.com/)
+
+-[CreativeVevix](http://creativevix.com/stock)
+
+-[Unplash](https://unsplash.com/)
+
+-[MorgueFile](http://morguefile.com/)
+
+-[SockSnap](https://stocksnap.io/)
+
+-[Gratisography](http://gratisography.com/)
+
+-[Superfamous](http://images.superfamous.com/)
+
+-[NegativeSpace](http://negativespace.co/photos/)
+
+-[LifeofPix](http://www.lifeofpix.com/)
+
+-[Raumrot](http://raumrot.com/)
+
+-[GameIcons](http://game-icons.net/)
+
+-[Tinypic](tinypic.com)
